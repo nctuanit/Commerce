@@ -1,0 +1,13 @@
+
+<div th:replace="/admin/header :: header"></div>
+	<div class="container">
+		<H1 style="text-align: center;"><b>Thêm danh mục product</b></H1>
+		<form  style="width: max-content;margin: 0 auto;" class="form-inline" th:action="@{/admin/categories/save}" method="post">
+			<label for="pwd" class="mr-sm-2">Type:</label>
+			<input type="text"
+				   class="form-control mb-2 mr-sm-2" placeholder="Nhập thể loại"
+				   id="pwd" name = "type">
+			<button style="height: 38px;" type="submit" class="btn btn-primary mb-2">Submit</button>
+		</form>
+	</div>
+<div th:replace="/admin/footer :: footer"></div>

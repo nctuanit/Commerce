@@ -1,0 +1,8 @@
+
++ framework : springboot
+    + springboot : 2.5.3
++ database : mysql
++ java : 11
++ build : maven
++ lombok : 1.18.20
+

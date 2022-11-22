@@ -1,0 +1,54 @@
+
++ user
+    - đăng nhập
+    - đăng ký
+    - xác minh otp
+    - đăng xuất
+    + review
+        - thêm review cho sản phẩm
+        - xem review của sản phẩm
+    + cart
+        - thêm sản phẩm vào giỏ hàng
+        - xem giỏ hàng
+        - xóa sản phẩm khỏi giỏ hàng
+        - cập nhật số lượng sản phẩm trong giỏ hàng
+        - đặt hàng
+    + sản phẩm
+        - xem sản phẩm
+        - xem danh sách sản phẩm
+    + blog
+        - xem blog
+        - xem danh sách blog
+
++ admin
+    + sản phẩm
+        - đăng sản phẩm
+        - xóa sản phẩm
+        - sửa sản phẩm
+        - xem danh sách sản phẩm ( có phân trang )
+    + đơn hàng
+        gửi email đến admin khi có đơn hàng mới
+    + user
+        - xem danh sách user
+        - xóa user
+        - sửa user
+        - xem danh sách user ( có phân trang )
+    + review
+        - xem danh sách review
+        - xóa review
+        - xem danh sách review ( có phân trang )
+    + blog
+        - đăng blog
+        - xóa blog
+        - sửa blog
+        - xem danh sách blog ( có phân trang )
+    + category
+        - thêm category
+        - xóa category
+        - sửa category
+        - xem danh sách category ( có phân trang )
+    + tag (cho blog)
+        - thêm tag
+        - xóa tag
+        - sửa tag
+        - xem danh sách tag ( có phân trang )
